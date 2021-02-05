@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Noah Myers"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Noah Myers"
 description              : &description "Accounting PhD Candidate at Arizona State University"
