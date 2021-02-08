@@ -3,6 +3,9 @@ layout: archive
 title: "Teaching"
 permalink: /teaching_info/
 author_profile: true
+redirect_from:
+  - /teaching/
+  - /teaching.html
 ---
 
 Principles of Auditing, Arizona State University, 2020
