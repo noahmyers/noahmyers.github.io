@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Download a full PDF copy of my CV <u><a href="/files/cv.pdf">here</a>.</u>
+Download a full PDF copy of my CV <u><a href="/files/cv.pdf">`here`</a>.</u>
 
 {% include base_path %}
 
