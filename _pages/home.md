@@ -10,6 +10,6 @@ redirect_from:
 
 Hello! My name is Noah Myers and I am a fourth year doctoral candidate in Accounting at Arizona State University.
 
-I research auditor regulation, corporate governance, and the impact of new technologies on individual decision making in accounting. My primary <a href="/teaching_info/">teaching</a>. interests are Accounting Information Systems, Data Analytics, and Auditing. Before starting in Academia, I was an IT Auditor with Ernst & Young and an Accounting Software Consultant with Squire & Company.  
+I research auditor regulation, corporate governance, and the impact of new technologies on individual decision making in accounting. My primary teaching interests are Accounting Information Systems, Data Analytics, and Auditing. View more about my teaching and see some teaching examples on the <a href="/teaching_info/">teaching</a> tab. 
 
-<a href="/files/cv.pdf">Click here to download a copy of my CV</a>. or click the nav bar above to view it in your browser.
+Before starting in Academia, I was an IT Auditor with Ernst & Young and an Accounting Software Consultant with Squire & Company. Click to download my <a href="/files/cv.pdf">`CV`</a> or click the nav bar above to view it in your browser.
