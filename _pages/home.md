@@ -12,5 +12,4 @@ Hello! My name is Noah Myers and I am a fourth year doctoral candidate in Accoun
 
 CV
 ------
-<u><a href="/files/cv.pdf">Click here to download a copy of my CV</a>.</u> or click the nav bar above to view it in your browser.
-{: .notice}
+<a href="/files/cv.pdf">Click here to download a copy of my CV</a>. or click the nav bar above to view it in your browser.
