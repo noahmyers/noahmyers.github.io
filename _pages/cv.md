@@ -20,7 +20,7 @@ Education
   * Minor in Economics
 
 
-Work experience
+Professional experience
 ======
 * Squire and Company, PC, _Orem, UT_, 2015-2017
   * Senior Consultant, Advisory Services
@@ -55,19 +55,19 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
 
 
 Works in Progress
+-----
+1. "Auditor Regulatory Oversight as a Foreign Policy Tool." (Dissertation)
 
-1. Auditor Regulatory Oversight as a Foreign Policy Tool. (Dissertation)
-
-2.	Has PCAOB inspection access increased firms’ use of real earnings management? With Phil	Lamoreaux and Mason Snow.
+2.	"Has PCAOB inspection access increased firms’ use of real earnings management?"" With Phil Lamoreaux and Mason Snow.
 	 * Presented at the the AAA Auditing Midyear Meeting (2021), the AAA FARS Midyear Meeting (2021), the AAA Western Region Meeting (2020), the BYU Accounting Symposium (2020), Maastricht University, the University of Houston, and the University of Connecticut
 	 * Preparing for journal submission.
 
-3.	An examination of investor information demand surrounding auditor changes. With Steve Kaplan.
+3.	"An examination of investor information demand surrounding auditor changes." With Steve Kaplan.
 	 * Preparing for conference submission.
 
-4.	“The individual career implications of PCAOB Enforcement Actions” (With Nate Cannon, Phil Lamoreaux, and Eldar Maksymov)
+4.	“The individual career implications of PCAOB Enforcement Actions.” With Nate Cannon, Phil Lamoreaux, and Eldar Maksymov
 
-5.	“Common auditors and common ownership” (with Matthew Baugh)
+5.	“Common auditors and common ownership.” With Matthew Baugh
 
 -----
 
