@@ -37,9 +37,25 @@ Work experience
 
 Publications
 ======
+
+You can also find my articles on <a href="https://scholar.google.com/citations?user=vu9p_eAAAAAJ&hl=en">my Google Scholar profile</a>.
+{: .notice}
+
+
+1) “The Impact of Shadow IT Systems on Perceived Information Credibility and Managerial Decision Making,” with Matt Starliper, Scott Summers, and David Wood.
+:   Accounting Horizons, 31(3), 2017
+
+2) “Accounting institution citation-based research rankings by topical area and methodology” with Neal Snow, Scott Summers, and David Wood.
+:   Journal of Information Systems, 30(3), 2015
+
+3) "Accounting education research: Ranking institutions and individual scholars,” with Kip Holderness, Scott Summers, and David Wood.
+:   Issues in Accounting Education, 29(1), 2013
+
+<!---
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+--->
 
 Teaching
 ======
