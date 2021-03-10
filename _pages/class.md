@@ -3,9 +3,6 @@ permalink: /class/
 title: Class
 excerpt:
 author_profile: true
-redirect_from:
-  - /class/
-  - /class.html
 ---
 
 ##Step 1
