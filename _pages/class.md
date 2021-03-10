@@ -1,6 +1,6 @@
 ---
-permalink: /inclass/
-title: Class
+permalink: /class/
+title: "Class"
 excerpt:
 author_profile: true
 ---
