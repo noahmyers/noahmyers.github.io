@@ -1,5 +1,5 @@
 ---
-permalink: /class/
+permalink: /inclass/
 title: Class
 excerpt:
 author_profile: true
