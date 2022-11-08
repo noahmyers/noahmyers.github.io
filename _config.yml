@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Noah Myers"
 title_separator          : "-"
 name                     : &name "Noah Myers"
-description              : &description "Accounting PhD Candidate at Arizona State University"
+description              : &description "Assistant Professor of Accounting at Utah Valley University"
 url                      : "https://noahmyers.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "noahmyers/noahmyers.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Noah M. Myers"
   avatar           : "noah_profile.jpg"
-  bio              : "Accounting PhD Candidate at Arizona State University"
-  location         : "Tempe, AZ"
+  bio              : "Assistant Professsor of Accounting at Utah Valley University"
+  location         : "Orem, UT"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=vu9p_eAAAAAJ&hl=en"
-  email            : "noah.myers@asu.edu"
+  email            : "noah.myers@uvu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
