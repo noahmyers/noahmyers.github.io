@@ -8,8 +8,17 @@ redirect_from:
   - /home.html
 ---
 
-Hello! My name is Noah Myers and I am an Assistant Professor of Accounting at Utah Valley University.
+# Welcome! I’m Noah Myers, Assistant Professor of Accounting at Utah Valley University
 
-I research auditor regulation, corporate governance, and the impact of new technologies on individual decision making in accounting. My primary teaching interests are Accounting Information Systems, Data Analytics, and Auditing. View more about my teaching and see some teaching examples on the <a href="/teaching_info/">teaching</a> tab.
+I help tomorrow’s accountants become fluent in the technologies and analytical mind-sets that now define our profession. In the classroom—and often on conference stages—I guide students and practitioners through:
 
-Before starting in Academia, I was an IT Auditor with Ernst & Young and an Accounting Software Consultant with Squire & Company. Click to download my <a href="/files/cv.pdf">`CV`</a> or click the nav bar above to view it in your browser.
+- **Accounting Information Systems** & internal controls  
+- **Data Analytics and Visualization** for audit and decision support  
+- **Applied AI & Automation** (VBA, Alteryx, Power Automate, Python, SQL)  
+- **Audit Methodology and Emerging Assurance Tools**
+
+My courses blend real-world datasets, live demonstrations, and hands-on labs so participants leave with skills they can use the very next day. Recent talks include how generative AI reshapes audit evidence, workflow automation for finance teams, and lessons from high-profile frauds such as FTX.
+
+Before entering academia I audited complex IT environments at **Ernst & Young** and implemented accounting software for mid-market clients at **Squire & Company**—experience I still draw on to keep each lesson practical and engaging.
+
+Explore the **Teaching** tab for syllabi, sample assignments, and classroom projects, or download my **CV** to see additional service and outreach activities. I’m always happy to collaborate on guest lectures, professional-development sessions, or curriculum design—feel free to reach out!
