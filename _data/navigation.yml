@@ -1,4 +1,4 @@
-# main links links
+# main links
 main:
   - title: "CV"
     url: /cv/
@@ -10,4 +10,4 @@ main:
     url: /about_me/
 
   - title: "Data"
-  url:   /data/
+    url: /data/
