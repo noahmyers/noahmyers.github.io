@@ -8,15 +8,17 @@ redirect_from:
   - /home.html
 ---
 
-I help tomorrow’s accountants become fluent in the technologies and analytical mind-sets that now define our profession. In the classroom—and often on conference stages—I guide students and practitioners through:
+I help accountants navigate the technologies, analytical mindsets, and ethical challenges shaping the future of the profession. In both classrooms and in professional settings, I guide students and practitioners through:
 
 - **Accounting Information Systems** & internal controls  
-- **Data Analytics and Visualization** for audit and decision support  
+- **Data Analytics and Visualization** for auditing and decision support  
 - **Applied AI & Automation** (VBA, Alteryx, Power Automate, Python, SQL)  
 - **Audit Methodology and Emerging Assurance Tools**
 
-My courses blend real-world datasets, live demonstrations, and hands-on labs so participants leave with skills they can use the very next day. Recent talks include how generative AI reshapes audit evidence, workflow automation for finance teams, and lessons from high-profile frauds such as FTX.
+My research examines how regulation, technology, and information access reshape auditing and assurance. I study auditor oversight, information search behaviors, and emerging audit tools—and recently coauthored a case on the internal control failures behind FTX’s collapse.
 
-Before entering academia I audited complex IT environments at **Ernst & Young** and implemented accounting software for mid-market clients at **Squire & Company**—experience I still draw on to keep each lesson practical and engaging.
+I design courses that integrate real-world datasets, live demonstrations, and hands-on labs so participants leave with practical, actionable skills. Recent talks have explored how generative AI reshapes audit evidence, workflow automation in accounting, and insights from the collapse of FTX.
 
-Explore the **Teaching** tab for syllabi, sample assignments, and classroom projects, or download my **CV** to see additional service and outreach activities. I’m always happy to collaborate on guest lectures, professional-development sessions, or curriculum design—feel free to reach out!
+Before academia, I audited complex IT environments at **Ernst & Young** and implemented accounting software for mid-market clients at **Squire & Company**—experience I draw on to make each lesson practical, relevant, and engaging.
+
+Students can explore the **Teaching** tab for syllabi, sample assignments, and classroom projects. Colleagues and professionals are welcome to download my **CV** or [contact me](mailto:noah.myers@uvu.edu) to collaborate on guest lectures, professional development sessions, research projects, or curriculum design.
