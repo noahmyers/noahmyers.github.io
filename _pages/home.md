@@ -8,8 +8,6 @@ redirect_from:
   - /home.html
 ---
 
-# Noah Myers, Assistant Professor of Accounting at Utah Valley University
-
 I help tomorrow’s accountants become fluent in the technologies and analytical mind-sets that now define our profession. In the classroom—and often on conference stages—I guide students and practitioners through:
 
 - **Accounting Information Systems** & internal controls  
