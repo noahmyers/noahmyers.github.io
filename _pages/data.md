@@ -5,7 +5,7 @@ layout: single           # uses the normal Minimal Mistakes page chrome
 toc: false
 ---
 
-## Central Jersey IIA 2025 Fraud Conference
+## 2025 ACFE Global Fraud Conference
 
 [**je_samples.xlsx**](/files/je_samples.xlsx){: .btn .btn--primary target="_blank" }
 
