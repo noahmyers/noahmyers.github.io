@@ -37,8 +37,8 @@ noahmyers.github.io/
 |------|-----|---------|
 | Home | `/` or `/index.html` | Hero banner, sidebar with social links, speaking topics overview |
 | Speaking | `/speaking.html` | Featured topics (AI, FTX), all topics grid, engagements list |
-| CV | `/cv.html` | Academic credentials, publications, teaching history |
-| Teaching | `/teaching.html` | Course info, embedded video lectures |
+| CV | `/cv.html` | Download button + links to Google Scholar and ORCID (no duplicate content) |
+| Teaching | `/teaching.html` | Course info, FTX case teaser (coming soon) |
 | Resources | `/resources.html` | Downloadable files for presentations |
 | About | `/about.html` | Personal bio, family photo |
 
