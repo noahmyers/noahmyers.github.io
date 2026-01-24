@@ -654,9 +654,32 @@ p {
 }
 
 .publication {
-  margin-bottom: var(--spacing-md);
-  padding-left: var(--spacing-sm);
-  border-left: 3px solid var(--color-border);
+  margin-bottom: var(--spacing-lg);
+  padding-left: var(--spacing-md);
+  border-left: 3px solid var(--color-accent);
+}
+
+.publication h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.publication .pub-meta {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.publication .pub-meta em {
+  color: var(--color-text-light);
+}
+
+.publication .pub-description {
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+  margin-bottom: 0;
 }
 
 .publication .title {
