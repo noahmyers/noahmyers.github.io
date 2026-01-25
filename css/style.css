@@ -552,6 +552,11 @@ p {
   font-size: 1.5rem;
 }
 
+.topic-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 /* ---------- Credentials Bar ---------- */
 .credentials {
   display: flex;
