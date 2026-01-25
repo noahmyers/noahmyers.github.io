@@ -508,6 +508,17 @@ p {
   gap: var(--spacing-sm);
 }
 
+.btn-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-with-icon svg {
+  width: 1em;
+  height: 1em;
+}
+
 /* ---------- Topic Cards ---------- */
 .topics-grid {
   display: grid;
