@@ -617,6 +617,35 @@ p {
   margin-bottom: var(--spacing-sm);
 }
 
+/* ---------- About Page ---------- */
+.family-photo {
+  max-width: 520px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: var(--spacing-md);
+}
+
+.projects-grid {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.topic-card-placeholder {
+  border-style: dashed;
+  color: var(--color-text-muted);
+}
+
+.hero-btns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  max-width: 640px;
+  gap: var(--spacing-sm);
+}
+
+.hero-btns .btn {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .profile-section {
     grid-template-columns: 1fr;
