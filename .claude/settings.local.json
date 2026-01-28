@@ -5,7 +5,11 @@
       "Bash(lsof:*)",
       "Bash(xargs kill -9)",
       "Bash(curl:*)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:ksltv.com)",
+      "WebFetch(domain:www.ksl.com)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
