@@ -99,6 +99,12 @@ p {
   line-height: 1.8;
 }
 
+.bio-secondary {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
 /* ---------- Layout Containers ---------- */
 .container {
   max-width: var(--max-width);
@@ -499,6 +505,16 @@ p {
 
 .btn-dark:hover {
   background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+.btn-accent {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}
+
+.btn-accent:hover {
+  background-color: var(--color-accent-light);
   color: #ffffff;
 }
 
