@@ -1,7 +1,7 @@
 AUDITABLE ARTIFICIAL INTELLIGENCE - DEMO PROMPTS
 Spokane Chapter ACFE Fraud Conference, October 20, 2026 - Noah Myers, Ph.D., CPA
 
-Data: Ridgeline_PCard_FY2026.xlsx / .csv (388 purchasing-card transactions)
+Data: Ridgeline_PCard_FY2026.csv (388 purchasing-card transactions; open it in Excel for Level 1)
 Case folder: Ridgeline_Hotline_Case.zip
 Ridgeline Materials, Inc. and all of its data are fictional, created for training.
 
