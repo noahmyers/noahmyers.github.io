@@ -63,8 +63,9 @@ noahmyers.github.io/
 
 ### Layout Patterns
 
-- **Homepage:** Compact hero (45vh) → Sidebar profile with social links → Topics grid
-- **Sidebar:** Left-aligned on desktop, stacks on mobile. Contains photo, name, title, and vertical social links (LinkedIn, ORCID, Google Scholar, Email, UVU Directory)
+- **Homepage:** Compact hero (45vh) with transparent header that turns solid on scroll → Sidebar profile with social links → Speaking → News → Projects
+- **Nav:** Research · Teaching · Speaking · Resources · About + outlined CV button (logo links home)
+- **Sidebar:** Left-aligned on desktop, stacks on mobile. Contains photo, affiliation, and vertical social links (name and credentials live in the hero) (LinkedIn, ORCID, Google Scholar, Email, UVU Directory)
 - **Other pages:** Page header → Content sections (alternating white/grey backgrounds)
 
 ## Key Images

@@ -38,20 +38,21 @@
 <body>
 
   <!-- Header -->
-  <header class="header">
+  <header class="header header-overlay">
     <div class="container">
       <a href="index.html" class="logo">Noah Myers</a>
-      <button class="nav-toggle" aria-label="Toggle navigation">
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
         <span></span>
         <span></span>
         <span></span>
       </button>
-      <nav class="nav-menu">
-        <a href="index.html" class="active">Home</a>
+      <nav class="nav-menu" id="site-nav">
         <a href="research.html">Research</a>
         <a href="teaching.html">Teaching</a>
         <a href="speaking.html">Speaking</a>
+        <a href="resources.html">Resources</a>
         <a href="about.html">About</a>
+        <a href="files/cv.pdf" class="nav-cta" target="_blank" rel="noopener">CV</a>
       </nav>
     </div>
   </header>
@@ -75,8 +76,6 @@
         <!-- Sidebar with photo and links -->
         <aside class="sidebar">
           <img src="images/noah_square.jpeg" alt="Noah Myers" class="sidebar-image">
-          <h2 class="sidebar-name">Noah M. Myers</h2>
-          <p class="sidebar-title">Ph.D., CPA</p>
           <p class="sidebar-affiliation">Assistant Professor of Accounting<br>Utah Valley University</p>
 
           <ul class="sidebar-links">
@@ -119,13 +118,9 @@
             I am an Assistant Professor of Accounting at Utah Valley University's Woodbury School of Business. My work sits at the intersection of auditing, technology, and information access—examining how regulation and changing information environments shape assurance and how investors and other stakeholders respond to audit-related events.
           </p>
 
-          <div class="btn-group hero-btns mt-2">
-            <a href="research.html" class="btn btn-dark">Research</a>
-            <a href="files/cv.pdf" class="btn btn-accent" download>CV (PDF)</a>
-            <a href="teaching.html" class="btn btn-dark">Teaching</a>
-            <a href="speaking.html" class="btn btn-accent">Speaking</a>
-            <a href="#projects" class="btn btn-dark">Projects</a>
-            <a href="#news" class="btn btn-accent">News</a>
+          <div class="profile-actions">
+            <a href="files/cv.pdf" class="btn btn-outline-dark" download>Download CV</a>
+            <a href="research.html" class="text-link">View research &rarr;</a>
           </div>
 
           <p class="bio-secondary mt-2">
@@ -141,11 +136,9 @@
     <div class="container">
       <h2>Speaking &amp; Workshops</h2>
       <p class="lead">
-        I also offer occasional talks and workshops for professional audiences (CPE groups, firms, and student organizations) on auditing, technology, and applied AI in accounting. These sessions are research-informed and practical, typically using concrete cases and demonstrations to help audiences understand how emerging tools and information environments affect accounting work and assurance. Details on formats and sample topics are available on the Speaking &amp; Workshops page.
+        I give talks and workshops for CPE groups, firms, and student organizations on auditing, technology, and applied AI in accounting. Sessions are research-informed and practical, built around concrete cases and live demonstrations.
       </p>
-      <p class="mt-2">
-        <a href="speaking.html" class="btn btn-dark">Speaking &amp; Workshops</a>
-      </p>
+      <a href="speaking.html" class="text-link">Speaking &amp; workshops &rarr;</a>
     </div>
   </section>
 
@@ -165,7 +158,7 @@
           </div>
           <h3><a href="https://www.forbes.com/sites/josephbrazel/2025/09/08/new-research-sheds-light-on-the-pcaobs-enforcement-process/" target="_blank" rel="noopener">New Research Sheds Light on the PCAOB's Enforcement Process</a></h3>
           <p class="news-summary">A Forbes feature on my coauthored research examining how the PCAOB's enforcement process works in practice and where it may fall short of Congress's mandate for fair procedures. We document concerns about transparency, investor-harm evaluation, and incentives shaping case outcomes, and suggest reforms including a clearer penalty framework tied to investor impact.</p>
-          <a class="news-link" href="https://www.forbes.com/sites/josephbrazel/2025/09/08/new-research-sheds-light-on-the-pcaobs-enforcement-process/" target="_blank" rel="noopener">Read article &rarr;</a>
+          <span class="news-link" aria-hidden="true">Read article &rarr;</span>
         </div>
 
         <div class="topic-card news-card">
@@ -175,7 +168,7 @@
           </div>
           <h3><a href="https://ksltv.com/676298/how-one-utah-university-is-trying-to-embrace-artificial-intelligence/" target="_blank" rel="noopener">Embracing AI in the Classroom</a></h3>
           <p class="news-summary">KSL 5 TV profiles UVU's approach to integrating AI across the curriculum, featuring my accounting courses where students use AI to help to automate spreadsheets and data workflows.</p>
-          <a class="news-link" href="https://ksltv.com/676298/how-one-utah-university-is-trying-to-embrace-artificial-intelligence/" target="_blank" rel="noopener">Watch interview &rarr;</a>
+          <span class="news-link" aria-hidden="true">Watch interview &rarr;</span>
         </div>
 
         <div class="topic-card news-card">
@@ -185,7 +178,7 @@
           </div>
           <h3><a href="https://www.ksl.com/article/51188081/utah-valley-university-launches-applied-artificial-intelligence-institute-ai-masters-program" target="_blank" rel="noopener">UVU Launches Applied AI Institute and Master's Program</a></h3>
           <p class="news-summary">KSL covers the launch of UVU's Applied Artificial Intelligence Institute and new Master of Applied AI degree. The article highlights the university's vision for AI literacy across all majors, partnerships with local businesses for student placements, and my classes using AI.</p>
-          <a class="news-link" href="https://www.ksl.com/article/51188081/utah-valley-university-launches-applied-artificial-intelligence-institute-ai-masters-program" target="_blank" rel="noopener">Read article &rarr;</a>
+          <span class="news-link" aria-hidden="true">Read article &rarr;</span>
         </div>
 
       </div>
@@ -227,9 +220,10 @@
           <a href="research.html">Research</a>
           <a href="teaching.html">Teaching</a>
           <a href="speaking.html">Speaking</a>
+          <a href="resources.html">Resources</a>
           <a href="about.html">About</a>
         </div>
-        <p class="footer-copy">&copy; 2025 Noah Myers. All rights reserved.</p>
+        <p class="footer-copy">&copy; 2026 Noah Myers. All rights reserved.</p>
       </div>
     </div>
   </footer>
