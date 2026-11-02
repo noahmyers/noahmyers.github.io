@@ -58,7 +58,7 @@ noahmyers.github.io/
 
 ### Typography
 
-- **Headings:** Georgia, Times New Roman, serif
+- **Headings:** Source Serif 4 (Google Fonts), falling back to Georgia
 - **Body:** System font stack (-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, etc.)
 
 ### Layout Patterns
@@ -76,7 +76,7 @@ noahmyers.github.io/
 | `noah_speaking.jpeg` | Hero background on homepage and og:image (2000px, ~440KB) |
 | `speaking_acfe_room.jpeg` | ACFE Global room photo on the speaking page |
 | `noah_speaking_profile.jpeg` | Profile image on speaking page |
-| `noah_square.jpeg` | Sidebar profile photo on homepage |
+| `noah_square.jpeg` | Intro photo on homepage |
 | `family.jpg` | About page |
 
 ## URL Redirects
@@ -98,7 +98,7 @@ Direct file URLs still work: `/files/cv.pdf`, `/files/je_samples.xlsx`
 
 ## Social Links
 
-These appear in the sidebar on the homepage and in footer CTAs:
+These appear in the link row on the homepage and in footer CTAs:
 
 - **Email:** noah.myers@uvu.edu
 - **LinkedIn:** https://www.linkedin.com/in/noahmyers
