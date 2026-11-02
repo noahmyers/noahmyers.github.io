@@ -843,7 +843,7 @@ a {
 
 .projects-grid {
   max-width: 820px;
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 
 .topic-card-placeholder {
@@ -984,6 +984,73 @@ a {
 .talk-item .meta {
   color: var(--color-text-muted);
   font-size: 0.9rem;
+}
+
+.speaking-photo {
+  margin: var(--spacing-md) 0;
+}
+
+.speaking-photo img {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.speaking-photo figcaption {
+  margin-top: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.engagements-list {
+  border-top: 1px solid var(--color-border);
+  margin-top: var(--spacing-md);
+}
+
+.engagement {
+  display: grid;
+  grid-template-columns: 90px 1fr auto;
+  gap: var(--spacing-sm);
+  align-items: baseline;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.engagement-date {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.engagement-org {
+  color: var(--color-primary);
+}
+
+.engagement-org em {
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+}
+
+.engagement-place {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.engagements-note {
+  margin-top: var(--spacing-md);
+  color: var(--color-text-light);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+  .engagement {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+
+  .engagement-place {
+    text-align: left;
+  }
 }
 
 .talks-placeholder {
