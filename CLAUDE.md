@@ -63,16 +63,18 @@ noahmyers.github.io/
 
 ### Layout Patterns
 
-- **Homepage:** Compact hero (45vh) with transparent header that turns solid on scroll → Sidebar profile with social links → Speaking → News → Projects
-- **Nav:** Research · Teaching · Speaking · Resources · About + outlined CV button (logo links home)
-- **Sidebar:** Left-aligned on desktop, stacks on mobile. Contains photo, affiliation, and vertical social links (name and credentials live in the hero) (LinkedIn, ORCID, Google Scholar, Email, UVU Directory)
+- **Homepage:** Hero (name + one-line thesis) with transparent header that turns solid on scroll → Intro (photo, short bio, link row, CV button) → Three threads (Research / Speaking / Teaching, one proof point each) → In the News (dated press list, newest first) → Side project (Of Good Report) → one personal line linking to About
+- **Nav:** Research · Teaching · Speaking · Resources + outlined CV button (logo links home). About is linked from the homepage and footer only.
+- **News:** add new coverage as a `.press-item` at the top of the `.press-list` on index.html (source, date, headline link, one-sentence summary). The whole row is clickable.
+- **Speaking:** pitch + photo → three Signature Talks → Professional Engagements list → Book a Presentation (`#booking`).
 - **Other pages:** Page header → Content sections (alternating white/grey backgrounds)
 
 ## Key Images
 
 | Image | Usage |
 |-------|-------|
-| `noah_speaking.jpeg` | Hero background on homepage (large, 4.3MB) |
+| `noah_speaking.jpeg` | Hero background on homepage and og:image (2000px, ~440KB) |
+| `speaking_acfe_room.jpeg` | ACFE Global room photo on the speaking page |
 | `noah_speaking_profile.jpeg` | Profile image on speaking page |
 | `noah_square.jpeg` | Sidebar profile photo on homepage |
 | `family.jpg` | About page |
@@ -90,6 +92,7 @@ These folders contain `index.html` files with meta refresh redirects to preserve
 | `/about_me/` | `/about.html` |
 | `/data/` | `/resources.html` |
 | `/home/` | `/` |
+| `/slides/` | `/resources.html` (short URL for closing slides and QR codes) |
 
 Direct file URLs still work: `/files/cv.pdf`, `/files/je_samples.xlsx`
 
@@ -113,6 +116,14 @@ python3 -m http.server 8000
 # Or just open index.html directly in browser
 open index.html
 ```
+
+## Branches and Previews
+
+- `master` is live (GitHub Pages serves it at noahmyers.com).
+- `dev` is for larger redesigns. Preview it without going live at
+  https://raw.githack.com/noahmyers/noahmyers.github.io/dev/index.html
+  (raw.githack serves any branch of this public repo; updates can take a few minutes).
+- While design options are being compared, `dev` carries `css/variants.css` and `js/preview.js`, which add a floating "Design option" switcher (`?v=classic|ledger|stage`). Fold the chosen option into `css/style.css` and delete both files (and their `<link>`/`<script>` tags) before merging to `master`.
 
 ## Deployment
 

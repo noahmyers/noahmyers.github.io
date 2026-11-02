@@ -23,7 +23,13 @@
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
 
   <!-- Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
   <link rel="stylesheet" href="css/style.css">
+  <!-- DEV PREVIEW ONLY: design options and switcher. Remove before merging to master. -->
+  <link rel="stylesheet" href="css/variants.css">
+  <script src="js/preview.js"></script>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LKL01KH5P"></script>
@@ -51,34 +57,31 @@
         <a href="teaching.html">Teaching</a>
         <a href="speaking.html">Speaking</a>
         <a href="resources.html">Resources</a>
-        <a href="about.html">About</a>
         <a href="files/cv.pdf" class="nav-cta" target="_blank" rel="noopener">CV</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero hero-compact">
+  <!-- Hero -->
+  <section class="hero hero-home">
     <div class="container">
       <div class="hero-content">
+        <p class="hero-eyebrow">Accounting &middot; Auditing &middot; AI</p>
         <h1>Noah M. Myers, Ph.D., CPA</h1>
-        <p class="subtitle">
-          I research and teach how AI and data analytics are changing accounting, auditing, and assurance.
-        </p>
+        <p class="subtitle">I study how audits are regulated and how AI is changing the work, then bring both into the room with practitioners and students.</p>
       </div>
     </div>
   </section>
 
-  <!-- Profile Section with Sidebar -->
-  <section class="section section-alt">
-    <div class="container">
-      <div class="profile-sidebar-layout">
-        <!-- Sidebar with photo and links -->
-        <aside class="sidebar">
-          <img src="images/noah_square.jpeg" alt="Noah Myers" class="sidebar-image">
-          <p class="sidebar-affiliation">Assistant Professor of Accounting<br>Utah Valley University</p>
-
-          <ul class="sidebar-links">
+  <!-- Intro -->
+  <section class="section intro">
+    <div class="container intro-grid">
+      <img src="images/noah_square.jpeg" alt="Noah Myers" class="intro-photo">
+      <div class="intro-text">
+        <p class="lead">
+          I'm an Assistant Professor of Accounting at Utah Valley University's Woodbury School of Business. Before academia, I worked in IT Risk Assurance at Ernst &amp; Young and in software implementation at Squire &amp; Company. I hold a Ph.D. from Arizona State University and am a licensed CPA in Utah.
+        </p>
+        <ul class="link-row">
             <li>
               <a href="mailto:noah.myers@uvu.edu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
@@ -110,40 +113,45 @@
               </a>
             </li>
           </ul>
-        </aside>
-
-        <!-- Main content -->
-        <div class="main-content">
-          <p class="lead">
-            I'm an Assistant Professor of Accounting at Utah Valley University's Woodbury School of Business. My research examines auditing, audit regulation, and technology, including how PCAOB oversight shapes audit practice and how investors respond to audit-related events. I teach accounting information systems and AI and data analytics. Before academia, I worked in IT Risk Assurance at Ernst &amp; Young and in software implementation at Squire &amp; Company. I hold a Ph.D. from Arizona State University and am a licensed CPA in Utah.
-          </p>
-
-          <div class="profile-actions">
-            <a href="files/cv.pdf" class="btn btn-outline-dark" download>Download CV</a>
-            <a href="research.html" class="text-link">View research &rarr;</a>
-          </div>
+        <div class="profile-actions">
+          <a href="files/cv.pdf" class="btn btn-outline-dark" download>Download CV</a>
+          <a href="speaking.html#booking" class="text-link">Invite me to speak &rarr;</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Speaking Section -->
-  <section class="section">
+  <!-- Three threads -->
+  <section class="section section-alt threads">
     <div class="container">
-      <h2>Speaking &amp; Workshops</h2>
-      <p class="lead">
-        I speak to professional audiences on AI in accounting, fraud, and internal controls. Recent sessions include the ACFE Global Fraud Conference, IIA Central New Jersey, and several ACFE chapters. Sessions are research-informed and practical, built around concrete cases and live demonstrations.
-      </p>
-      <a href="speaking.html" class="text-link">Speaking &amp; workshops &rarr;</a>
+      <div class="threads-grid">
+        <article class="thread">
+          <p class="thread-label">Research</p>
+          <h2 class="thread-title">How audit oversight works in practice</h2>
+          <p>Studies of PCAOB enforcement, inspections, and auditor changes. My coauthored work on PCAOB enforcement in <em>Contemporary Accounting Research</em> was featured in Forbes.</p>
+          <a href="research.html" class="text-link">Publications &rarr;</a>
+        </article>
+        <article class="thread">
+          <p class="thread-label">Speaking</p>
+          <h2 class="thread-title">AI and fraud, shown live</h2>
+          <p>Invited speaker at the ACFE Global Fraud Conference, with ten more conference and chapter sessions since 2024. Hands-on AI demonstrations built for auditors and fraud examiners.</p>
+          <a href="speaking.html" class="text-link">Talks and booking &rarr;</a>
+        </article>
+        <article class="thread">
+          <p class="thread-label">Teaching</p>
+          <h2 class="thread-title">AI in the accounting classroom</h2>
+          <p>I teach accounting information systems and AI and data analytics at UVU. KSL and TechBuzz News have covered my work bringing AI into the classroom.</p>
+          <a href="teaching.html" class="text-link">Courses &rarr;</a>
+        </article>
+      </div>
     </div>
   </section>
 
-  <!-- News Section -->
-  <section class="section section-alt news-section" id="news">
+  <!-- News -->
+  <section class="section" id="news">
     <div class="container">
-      <div class="news-header">
+      <div class="section-head">
         <h2>In the News</h2>
-        <p class="news-subtitle">Selected media coverage and research highlights.</p>
       </div>
       <ul class="press-list">
         <li class="press-item">
@@ -193,25 +201,27 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section class="section" id="projects">
+  <!-- Project -->
+  <section class="section section-alt" id="projects">
     <div class="container">
-      <h2>Projects</h2>
-      <p class="mb-3">Independent projects exploring data, technology, and information literacy.</p>
-
-      <div class="topics-grid projects-grid">
-        <div class="topic-card">
-          <a href="https://ofgood.report" target="_blank" rel="noopener" class="project-card-link">
-            <img src="https://ofgood.report/og-share.jpg" alt="Of Good Report share card" style="width: 100%; border-radius: 6px; margin-bottom: var(--spacing-sm);">
-          </a>
-          <h3>
-            <a href="https://ofgood.report" target="_blank" rel="noopener">Of Good Report</a>
-          </h3>
-          <p>
-            A media-literacy project cataloging journalism and public sources cited by leaders of The Church of Jesus Christ of Latter-day Saints. The goal is to encourage better media literacy and broader reading habits without implying endorsement of any outlet.
-          </p>
-        </div>
+      <div class="section-head">
+        <h2>Side Project</h2>
       </div>
+      <a href="https://ofgood.report" target="_blank" rel="noopener" class="project-feature">
+        <img src="https://ofgood.report/og-share.jpg" alt="Of Good Report" loading="lazy">
+        <div class="project-feature-text">
+          <h3>Of Good Report</h3>
+          <p>A media-literacy project cataloging the journalism cited by leaders of The Church of Jesus Christ of Latter-day Saints in General Conference, to encourage broader reading habits. Citation is not endorsement.</p>
+          <span class="text-link">Visit ofgood.report &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Personal -->
+  <section class="section personal">
+    <div class="container">
+      <p>Outside work, I live in Orem, Utah, with my wife and three kids. We spend our free time on hiking trails, movie nights, and bike rides around town. <a href="about.html" class="text-link">More about me</a></p>
     </div>
   </section>
 

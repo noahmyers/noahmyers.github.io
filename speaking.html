@@ -14,7 +14,13 @@
   <title>Speaking | Noah Myers</title>
 
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
   <link rel="stylesheet" href="css/style.css">
+  <!-- DEV PREVIEW ONLY: design options and switcher. Remove before merging to master. -->
+  <link rel="stylesheet" href="css/variants.css">
+  <script src="js/preview.js"></script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LKL01KH5P"></script>
   <script>
@@ -41,7 +47,6 @@
         <a href="teaching.html">Teaching</a>
         <a href="speaking.html" class="active" aria-current="page">Speaking</a>
         <a href="resources.html">Resources</a>
-        <a href="about.html">About</a>
         <a href="files/cv.pdf" class="nav-cta" target="_blank" rel="noopener">CV</a>
       </nav>
     </div>
@@ -50,123 +55,64 @@
   <!-- Page Header -->
   <div class="page-header">
     <div class="container">
-      <h1>Speaking &amp; Presentations</h1>
-      <p class="subtitle">Keynotes, workshops, and professional development sessions</p>
+      <h1>Speaking</h1>
+      <p class="subtitle">Talks and workshops for auditors, fraud examiners, and finance teams</p>
     </div>
   </div>
 
-  <!-- Speaker Bio -->
+  <!-- Pitch -->
   <section class="section">
-    <div class="container">
-      <div class="profile-section">
-        <img src="images/noah_speaking_profile.jpeg" alt="Noah Myers speaking" class="profile-image" style="width: 250px; height: 250px;">
-        <div class="profile-content">
-          <h2>About the Speaker</h2>
-          <p>
-            I bring a unique combination of Big 4 audit experience, academic research, and practical technology implementation to every presentation. My goal is to leave audiences with actionable insights they can apply immediately, not just theoretical frameworks.
-          </p>
-          <p>
-            Before joining academia, I worked in IT Risk Assurance at <strong>Ernst &amp; Young</strong> and implemented accounting software for mid-market businesses at <strong>Squire &amp; Company</strong>. I hold a Ph.D. from Arizona State University and am a licensed CPA in Utah.
-          </p>
-          <p>
-            Whether addressing a room of practicing CPAs, fraud examiners, or graduate students, I design each session to be interactive, relevant, and grounded in real-world examples.
-          </p>
-          <div class="btn-group mt-2">
-            <a href="mailto:noah.myers@uvu.edu" class="btn btn-primary">Contact for Booking</a>
-            <a href="files/cv.pdf" class="btn btn-dark" target="_blank">Download CV (PDF)</a>
-          </div>
+    <div class="container speak-intro">
+      <div class="speak-intro-text">
+        <p class="lead">
+          I combine Big 4 IT risk experience, audit-regulation research, and live AI demonstrations. Sessions are built around realistic cases and the tools attendees already use, so they leave knowing where AI helps, where it fails, and how to document the work.
+        </p>
+        <div class="profile-actions">
+          <a href="#booking" class="btn btn-outline-dark">Invite me to speak</a>
+          <a href="resources.html" class="text-link">Session materials &rarr;</a>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Featured Topic: AI in Accounting -->
-  <section class="section section-alt">
-    <div class="container">
-      <h2>Featured Topic: AI in Accounting &amp; Finance</h2>
-      <p class="lead mb-2">
-        Artificial intelligence is transforming how accounting and finance professionals work. From automating routine tasks to reshaping audit evidence and financial analysis, AI tools are becoming essential to modern practice.
-      </p>
-      <p>
-        In this presentation, I explore the practical applications of AI across accounting functions, including:
-      </p>
-      <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
-        <li style="list-style: disc; margin-bottom: 0.5rem;"><strong>Generative AI for audit and assurance</strong> - How tools like large language models are changing the nature of audit evidence and professional judgment</li>
-        <li style="list-style: disc; margin-bottom: 0.5rem;"><strong>Workflow automation</strong> - Practical applications of VBA, Python, Power Automate, and Alteryx to eliminate repetitive tasks</li>
-        <li style="list-style: disc; margin-bottom: 0.5rem;"><strong>Risk and opportunity</strong> - Understanding what AI can and cannot do, and where human judgment remains essential</li>
-        <li style="list-style: disc; margin-bottom: 0.5rem;"><strong>Preparing for the future</strong> - Skills and mindsets professionals need to thrive in an AI-augmented environment</li>
-      </ul>
-      <p>
-        This session can be tailored for CPE credit, executive audiences, or practitioner workshops. I incorporate live demonstrations and hands-on exercises to ensure participants leave with practical, actionable knowledge.
-      </p>
-    </div>
-  </section>
-
-  <!-- Featured Topic: FTX Case -->
-  <section class="section">
-    <div class="container">
-      <h2>Featured Topic: Lessons from the FTX Collapse</h2>
-      <p class="lead mb-2">
-        A practical, story-driven breakdown of what went wrong at FTX—and what it teaches accountants, auditors, and finance teams about controls, governance, and professional skepticism in fast-growing organizations.
-      </p>
-      <p>
-        Using the FTX collapse as a real-world case, I walk through how weak processes, informal systems, and leadership failures can compound into catastrophic risk. I translate the lessons into concrete takeaways: what "good" looks like for basic internal controls, reconciliations, documentation, access/segregation of duties, and auditability—especially when teams are moving fast and relying heavily on spreadsheets and lightweight tools.
-      </p>
-      <p>
-        This session is designed to be accessible for non-auditors while still delivering actionable insights for assurance and risk professionals.
-      </p>
-    </div>
-  </section>
-
-  <!-- All Topics -->
-  <section class="section">
-    <div class="container">
-      <h2 class="text-center mb-3">All Speaking Topics</h2>
-      <div class="topics-grid">
-
-        <div class="topic-card">
-          <h3>AI in Accounting &amp; Finance</h3>
-          <p>How generative AI is reshaping audit evidence, automating workflows, and transforming financial analysis. Includes live demonstrations of practical AI tools.</p>
-        </div>
-
-        <div class="topic-card">
-          <h3>Fraud Prevention &amp; Investigation</h3>
-          <p>Detecting financial statement fraud, understanding internal control failures, and case studies from high-profile failures like FTX. Co-authored a published case on FTX's internal control breakdown.</p>
-        </div>
-
-        <div class="topic-card">
-          <h3>Data Analytics for Accountants</h3>
-          <p>Practical analytics for auditing and decision support. Hands-on instruction in Python, SQL, Power BI, Alteryx, and Excel-based analysis techniques.</p>
-        </div>
-
-        <div class="topic-card">
-          <h3>Auditing &amp; Assurance</h3>
-          <p>Audit methodology, emerging assurance tools, PCAOB oversight, and the evolving role of auditors. Drawing on published research in audit regulation.</p>
-        </div>
-
-        <div class="topic-card">
-          <h3>IT Governance &amp; Controls</h3>
-          <p>Managing technology risk, IT general controls, SOC reporting, and governance frameworks. Based on direct experience in IT Risk Assurance at EY.</p>
-        </div>
-
-        <div class="topic-card">
-          <h3>Accounting Education</h3>
-          <p>Curriculum design, integrating technology into accounting courses, and preparing the next generation of professionals for a changing field.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Past Engagements / Talks Placeholder -->
-  <section class="section section-alt">
-    <div class="container">
-      <h2>Professional Engagements</h2>
-
       <figure class="speaking-photo">
         <img src="images/speaking_acfe_room.jpeg" alt="Noah Myers presenting to a full room at the ACFE Global Fraud Conference in Nashville" loading="lazy">
         <figcaption>ACFE Global Fraud Conference, Nashville, June 2025</figcaption>
       </figure>
+    </div>
+  </section>
+
+  <!-- Signature talks -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Signature Talks</h2>
+      </div>
+      <div class="talks">
+        <article class="talk">
+          <h3>Auditable AI: Practical, Hands-On AI for Audit and Assurance</h3>
+          <p>A live walk-through of AI on a realistic fraud case, in three levels: spreadsheet formulas, risk scoring, and an AI investigator working a hotline tip. Attendees see how to get useful work from AI and keep it reviewable.</p>
+          <p class="talk-meta">Given at the Spokane Chapter ACFE Fraud Conference and UACPA Southern Chapter, 2026</p>
+        </article>
+        <article class="talk">
+          <h3>FTX Unchecked: The Internal Control Failures Behind the Collapse</h3>
+          <p>How weak processes, informal systems, and leadership failures compounded at FTX, and what basic controls, reconciliations, access, and documentation should look like in a fast-moving organization. Accessible to non-auditors.</p>
+          <p class="talk-meta">Based on my teaching case with Mason Snow</p>
+        </article>
+        <article class="talk">
+          <h3>Who Audits the Auditors? What Research Shows About PCAOB Oversight</h3>
+          <p>What enforcement and inspections actually do to audit practice, drawn from interviews with sanctioned auditors and former PCAOB staff, and what it means for firms preparing for inspection.</p>
+          <p class="talk-meta">Based on research in <em>Contemporary Accounting Research</em> and <em>AUDITING</em>, covered by Forbes</p>
+        </article>
+      </div>
+      <p class="talks-note">
+        Each talk runs as a keynote, a CPE session, or a hands-on workshop. I also speak on data analytics, IT governance and controls, and accounting education.
+      </p>
+    </div>
+  </section>
+
+  <!-- Past Engagements -->
+  <section class="section">
+    <div class="container">
+      <h2>Professional Engagements</h2>
+
 
       <div class="engagements-list">
         <div class="engagement">
@@ -233,13 +179,13 @@
   </section>
 
   <!-- Booking CTA -->
-  <section class="section section-dark">
+  <section class="section section-dark" id="booking">
     <div class="container text-center">
       <h2>Book a Presentation</h2>
-      <p class="lead mb-2" style="max-width: 600px; margin-left: auto; margin-right: auto;">
+      <p class="lead booking-lead">
         Available for conference keynotes, CPE sessions, corporate training, guest lectures, and professional development workshops.
       </p>
-      <div class="social-links" style="justify-content: center;">
+      <div class="social-links booking-links">
         <a href="mailto:noah.myers@uvu.edu" class="social-link">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
           noah.myers@uvu.edu
