@@ -44,30 +44,31 @@ noahmyers.github.io/
 
 ## Design System
 
-### Color Palette (Muted Professional)
+### Color Palette (Ink and Clear Blue)
 
 ```css
---color-primary: #2c3e50;      /* Dark blue-grey */
---color-secondary: #34495e;    /* Slightly lighter blue-grey */
---color-accent: #5a7a94;       /* Muted steel blue */
---color-accent-light: #7a9cb8; /* Lighter accent for hovers */
+--color-primary: #121a22;      /* Ink: headings, buttons, page-header band */
+--color-secondary: #1f2a35;    /* Lighter ink */
+--color-accent: #1f63b5;       /* Clear blue: labels, links, hover */
+--color-accent-light: #4a86d1; /* Lighter accent for hovers */
 --color-text: #333333;         /* Near black for body text */
 --color-text-light: #666666;   /* Grey for secondary text */
---color-bg-dark: #1a252f;      /* Dark sections (hero, footer) */
+--color-bg-alt: #f3f4f6;       /* Light grey sections */
+--color-bg-dark: #0d1319;      /* Hero base, footer */
 ```
 
 ### Typography
 
-- **Headings:** Source Serif 4 (Google Fonts), falling back to Georgia
+- **Headings:** Archivo (Google Fonts, weights 400-700), bold with slightly tight letter-spacing
 - **Body:** System font stack (-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, etc.)
 
 ### Layout Patterns
 
-- **Homepage:** Hero (name + one-line thesis) with transparent header that turns solid on scroll → Intro (photo, short bio, link row, CV button) → Three threads (Research / Speaking / Teaching, one proof point each) → In the News (dated press list, newest first) → Side project (Of Good Report) → one personal line linking to About
+- **Homepage:** Hero ("Noah Myers" with no credentials, one-line thesis; stage photo under a dark overlay, about 60vh) with transparent header that turns solid on scroll → Intro (photo, short bio, link row, CV button) → Three threads (Research / Speaking / Teaching, one proof point each) → In the News (dated press list, newest first) → Side project (Of Good Report) → one personal line linking to About
 - **Nav:** Research · Teaching · Speaking · Resources + outlined CV button (logo links home). About is linked from the homepage and footer only.
 - **News:** add new coverage as a `.press-item` at the top of the `.press-list` on index.html (source, date, headline link, one-sentence summary). The whole row is clickable.
-- **Speaking:** pitch + photo → three Signature Talks → Professional Engagements list → Book a Presentation (`#booking`).
-- **Other pages:** Page header → Content sections (alternating white/grey backgrounds)
+- **Speaking:** pitch + photo → two Signature Talks → Professional Engagements list → Book a Presentation (`#booking`).
+- **Other pages:** Dark page-header band → Content sections (alternating white/grey backgrounds)
 
 ## Key Images
 
@@ -123,7 +124,6 @@ open index.html
 - `dev` is for larger redesigns. Preview it without going live at
   https://raw.githack.com/noahmyers/noahmyers.github.io/dev/index.html
   (raw.githack serves any branch of this public repo; updates can take a few minutes).
-- While design options are being compared, `dev` carries `css/variants.css` and `js/preview.js`, which add a floating "Design option" switcher (`?v=classic|ledger|stage`). Fold the chosen option into `css/style.css` and delete both files (and their `<link>`/`<script>` tags) before merging to `master`.
 
 ## Deployment
 
@@ -143,19 +143,12 @@ Google Analytics 4 is configured with tracking ID: `G-0LKL01KH5P`
 
 ## Speaking Topics
 
-### Featured Topics (with detailed sections on speaking.html)
+### Signature Talks (speaking.html)
 
-1. **AI in Accounting & Finance** - Generative AI, workflow automation, practical demonstrations
-2. **Lessons from the FTX Collapse** - Internal controls, governance, professional skepticism
+1. **Auditable AI: Practical, Hands-On AI for Audit and Assurance** - live three-level demo on the fictional Ridgeline case (materials on resources.html)
+2. **FTX Unchecked: The Internal Control Failures Behind the Collapse** - internal controls, governance, professional skepticism
 
-### All Topics
-
-- AI in Accounting & Finance
-- Fraud Prevention & Investigation
-- Data Analytics for Accountants
-- Auditing & Assurance
-- IT Governance & Controls
-- Accounting Education
+The page deliberately does not list where each talk was given. Also offered: data analytics, IT governance and controls, accounting education.
 
 ## Content Notes
 
